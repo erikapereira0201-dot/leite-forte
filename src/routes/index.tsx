@@ -110,7 +110,7 @@ function Landing() {
           {[
             { n: "+2.000", l: "alunos formados" },
             { n: "9 módulos", l: "passo a passo" },
-            { n: "4,9 ★", l: "avaliação média" },
+            { n: "4,5 ★", l: "avaliação média" },
             { n: "100%", l: "online" },
           ].map((s) => (
             <div key={s.l}>
