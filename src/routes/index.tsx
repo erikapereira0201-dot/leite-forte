@@ -285,7 +285,7 @@ function Landing() {
                   "Grupo VIP no Telegram",
                   "Bônus: segredos do dia a dia",
                   "Certificado de conclusão",
-                  "Acesso vitalício",
+                  "Acesso por 2 anos",
                 ].map((b) => (
                   <div key={b} className="flex items-center gap-2 text-sm">
                     <CheckCircle2 className="h-5 w-5 text-success shrink-0" />
