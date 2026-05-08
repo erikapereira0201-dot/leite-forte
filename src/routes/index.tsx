@@ -96,7 +96,7 @@ function Landing() {
             />
             <div className="absolute -bottom-6 -left-6 bg-card border border-border rounded-xl p-4 shadow-card max-w-[220px]">
               <div className="flex items-center gap-2 text-primary font-bold text-2xl font-display">
-                <DollarSign className="h-6 w-6" /> R$ 300+
+                R$ 300+
               </div>
               <p className="text-xs text-muted-foreground mt-1">por chamado médio em propriedades rurais</p>
             </div>
