@@ -46,7 +46,7 @@ function Landing() {
             <div className="h-9 w-9 rounded-lg bg-gradient-gold grid place-items-center">
               <Snowflake className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="font-display text-xl tracking-wide">TANQUE<span className="text-primary">PRO</span></span>
+            <span className="font-display text-xl tracking-wide">R&amp;E <span className="text-primary">CURSOS</span></span>
           </div>
           <a href={CHECKOUT} className="hidden sm:inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2 text-sm font-bold text-primary-foreground hover:brightness-110">
             Quero Entrar <ArrowRight className="h-4 w-4" />
