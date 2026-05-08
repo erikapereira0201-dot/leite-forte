@@ -362,7 +362,7 @@ function Landing() {
 
       {/* FOOTER */}
       <footer className="border-t border-border py-10 text-center text-sm text-muted-foreground">
-        <p>© {new Date().getFullYear()} TanquePro · Curso de Manutenção em Tanque de Leite</p>
+        <p>© {new Date().getFullYear()} R&amp;E Cursos · Manutenção em Tanque de Leite</p>
         <a href={WHATS} className="inline-flex items-center gap-2 text-primary mt-3 hover:underline">
           <MessageCircle className="h-4 w-4" /> Falar no WhatsApp
         </a>
