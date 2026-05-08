@@ -329,7 +329,7 @@ function Landing() {
               { q: "Por quanto tempo tenho acesso?", a: "Acesso por 2 anos. Estude no seu ritmo, reveja as aulas quantas vezes precisar." },
               { q: "Recebo certificado?", a: "Sim, certificado de conclusão emitido após terminar todos os módulos." },
               { q: "Funciona no celular?", a: "Sim. Aulas otimizadas para celular, tablet e computador." },
-              { q: "Como é o suporte?", a: "Você entra no grupo VIP no Telegram com o instrutor e outros alunos para tirar dúvidas." },
+              
               { q: "E se eu não gostar?", a: "Você tem 7 dias de garantia incondicional. Pede o reembolso e devolvemos 100%." },
             ].map((f) => (
               <details key={f.q} className="group bg-card border border-border rounded-xl p-5 cursor-pointer">
