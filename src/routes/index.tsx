@@ -326,7 +326,7 @@ function Landing() {
           <div className="mt-12 space-y-4">
             {[
               { q: "Preciso ter experiência em refrigeração?", a: "Não. O curso começa do absoluto zero, explicando o ciclo de refrigeração e cada componente. Quem já tem base avança ainda mais rápido." },
-              { q: "Por quanto tempo tenho acesso?", a: "Acesso vitalício. Estude no seu ritmo, reveja as aulas quantas vezes precisar." },
+              { q: "Por quanto tempo tenho acesso?", a: "Acesso por 2 anos. Estude no seu ritmo, reveja as aulas quantas vezes precisar." },
               { q: "Recebo certificado?", a: "Sim, certificado de conclusão emitido após terminar todos os módulos." },
               { q: "Funciona no celular?", a: "Sim. Aulas otimizadas para celular, tablet e computador." },
               { q: "Como é o suporte?", a: "Você entra no grupo VIP no Telegram com o instrutor e outros alunos para tirar dúvidas." },
