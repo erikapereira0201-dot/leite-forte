@@ -46,7 +46,7 @@ function Landing() {
             <div className="h-9 w-9 rounded-lg bg-gradient-gold grid place-items-center">
               <Snowflake className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="font-display text-xl tracking-wide">TANQUE<span className="text-primary">PRO</span></span>
+            <span className="font-display text-xl tracking-wide">R&amp;E <span className="text-primary">CURSOS</span></span>
           </div>
           <a href={CHECKOUT} className="hidden sm:inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2 text-sm font-bold text-primary-foreground hover:brightness-110">
             Quero Entrar <ArrowRight className="h-4 w-4" />
@@ -362,7 +362,7 @@ function Landing() {
 
       {/* FOOTER */}
       <footer className="border-t border-border py-10 text-center text-sm text-muted-foreground">
-        <p>© {new Date().getFullYear()} TanquePro · Curso de Manutenção em Tanque de Leite</p>
+        <p>© {new Date().getFullYear()} R&amp;E Cursos · Manutenção em Tanque de Leite</p>
         <a href={WHATS} className="inline-flex items-center gap-2 text-primary mt-3 hover:underline">
           <MessageCircle className="h-4 w-4" /> Falar no WhatsApp
         </a>
