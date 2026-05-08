@@ -156,7 +156,7 @@ function Landing() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { i: Gauge, t: "Entendimento Completo do Tanque", d: "Função, funcionamento, ordenhas e estrutura completa." },
+              { i: Gauge, t: "Entendimento Completo do Tanque", d: "Função, funcionamento e estrutura completa." },
               { i: Snowflake, t: "Princípio da Refrigeração", d: "Ciclo completo explicado de forma simples e prática." },
               { i: Wrench, t: "Componentes do Sistema", d: "Controlador, visor, filtro secador, válvulas, evaporador, pressostato, contatora, agitador." },
               { i: Flame, t: "Ferramentas na Prática", d: "Manifold, bomba de vácuo, maçarico, multímetro, capacímetro e termômetro." },
