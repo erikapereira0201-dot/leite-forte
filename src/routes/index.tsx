@@ -108,7 +108,7 @@ function Landing() {
       <section className="border-y border-border bg-card/50">
         <div className="mx-auto max-w-7xl px-4 py-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           {[
-            { n: "+2.000", l: "alunos formados" },
+            { n: "Muitos", l: "alunos formados" },
             { n: "9 módulos", l: "passo a passo" },
             { n: "4,5 ★", l: "avaliação média" },
             { n: "100%", l: "online" },
