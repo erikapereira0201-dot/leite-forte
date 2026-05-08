@@ -281,7 +281,7 @@ function Landing() {
               <div className="mt-8 grid sm:grid-cols-2 gap-3 text-left max-w-md mx-auto">
                 {[
                   "9 módulos completos",
-                  "Aulas práticas em campo",
+                  
                   "Grupo VIP no Telegram",
                   "Bônus: segredos do dia a dia",
                   "Certificado de conclusão",
