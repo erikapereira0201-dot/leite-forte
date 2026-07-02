@@ -104,6 +104,37 @@ function Landing() {
         </div>
       </section>
 
+      {/* CAMPANHA DO REFRIGERISTA */}
+      <section className="py-14 bg-gradient-hero border-b border-border">
+        <div className="mx-auto max-w-4xl px-4">
+          <div className="bg-card border-2 border-primary/40 rounded-3xl p-6 sm:p-10 shadow-gold relative overflow-hidden text-center">
+            <div className="absolute top-0 right-0 bg-gradient-gold text-primary-foreground px-6 py-2 text-xs font-bold uppercase tracking-wider rounded-bl-2xl">
+              30% OFF
+            </div>
+            <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary uppercase tracking-wider">
+              <Flame className="h-3.5 w-3.5" /> Campanha do Refrigerista
+            </div>
+            <h2 className="mt-4 font-display text-3xl sm:text-4xl uppercase">
+              Entre agora e <span className="text-gradient-gold">economize R$ 138,00</span>
+            </h2>
+            <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
+              Condição exclusiva para quem quer virar técnico de tanque de leite. Aproveite o desconto da Campanha do Refrigerista e comece a cobrar pelos seus chamados ainda este mês.
+            </p>
+            <div className="mt-6 flex flex-col items-center gap-1">
+              <span className="text-muted-foreground line-through">de R$ 459,90</span>
+              <div className="font-display text-5xl sm:text-6xl text-gradient-gold leading-none">12x R$ 33,29</div>
+              <div className="text-muted-foreground">ou <strong className="text-foreground">R$ 321,93</strong> à vista</div>
+            </div>
+            <div className="mt-8">
+              <CTA large>GARANTIR MEU 30% OFF</CTA>
+            </div>
+            <p className="text-xs text-muted-foreground mt-4">
+              Promoção por tempo limitado. Pode sair do ar a qualquer momento.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* SOCIAL PROOF BAR */}
       <section className="border-y border-border bg-card/50">
         <div className="mx-auto max-w-7xl px-4 py-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
@@ -265,23 +296,25 @@ function Landing() {
         <div className="mx-auto max-w-3xl px-4">
           <div className="bg-card border-2 border-primary/40 rounded-3xl p-8 sm:p-12 shadow-gold relative overflow-hidden">
             <div className="absolute top-0 right-0 bg-gradient-gold text-primary-foreground px-6 py-2 text-xs font-bold uppercase tracking-wider rounded-bl-2xl">
-              Oferta Especial
+              30% OFF
             </div>
             <div className="text-center">
-              <span className="text-primary uppercase text-xs font-bold tracking-widest">Curso Completo</span>
+              <span className="text-primary uppercase text-xs font-bold tracking-widest">Campanha do Refrigerista</span>
               <h2 className="font-display text-4xl sm:text-5xl uppercase mt-3">Manutenção em Tanque de Leite</h2>
 
               <div className="mt-8 flex flex-col items-center gap-2">
-                <span className="text-muted-foreground line-through">de R$ 997,00</span>
+                <span className="text-muted-foreground line-through">de R$ 459,90</span>
                 <div className="font-display text-2xl">por apenas</div>
-                <div className="font-display text-6xl sm:text-7xl text-gradient-gold leading-none">12x R$ 47,59</div>
-                <div className="text-muted-foreground">ou <strong className="text-foreground">R$ 459,90</strong> à vista</div>
+                <div className="font-display text-6xl sm:text-7xl text-gradient-gold leading-none">12x R$ 33,29</div>
+                <div className="text-muted-foreground">ou <strong className="text-foreground">R$ 321,93</strong> à vista</div>
+                <div className="mt-2 inline-flex items-center gap-1.5 rounded-full bg-success/15 px-3 py-1 text-xs font-bold text-success">
+                  <CheckCircle2 className="h-3.5 w-3.5" /> Você economiza R$ 138,00
+                </div>
               </div>
 
               <div className="mt-8 grid sm:grid-cols-2 gap-3 text-left max-w-md mx-auto">
                 {[
                   "9 módulos completos",
-                  
                   "Grupo VIP no Telegram",
                   "Bônus: segredos do dia a dia",
                   "Certificado de conclusão",
@@ -295,7 +328,7 @@ function Landing() {
               </div>
 
               <div className="mt-10">
-                <CTA large>GARANTIR MINHA VAGA AGORA</CTA>
+                <CTA large>GARANTIR MINHA VAGA COM 30% OFF</CTA>
                 <p className="text-xs text-muted-foreground mt-4 flex items-center justify-center gap-2">
                   <Lock className="h-3 w-3" /> Pagamento 100% seguro via Hotmart
                 </p>
@@ -355,7 +388,7 @@ function Landing() {
             O agro não espera. Aprenda hoje a profissão que paga bem amanhã.
           </p>
           <div className="mt-8">
-            <CTA large>COMEÇAR AGORA POR 12X R$ 47,59</CTA>
+            <CTA large>COMEÇAR AGORA POR 12X R$ 33,29</CTA>
           </div>
         </div>
       </section>
