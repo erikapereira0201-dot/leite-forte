@@ -73,7 +73,7 @@ function Landing() {
               <CTA large>QUERO ME TORNAR ESPECIALISTA</CTA>
             </div>
 
-            <div className="mt-6 inline-flex items-center gap-4 rounded-2xl border border-primary/40 bg-card/80 backdrop-blur px-5 py-3 shadow-gold">
+            <div className="mt-6 inline-flex items-center gap-4 rounded-2xl border-2 border-primary bg-card/90 backdrop-blur px-5 py-3 shadow-gold animate-pulse-glow">
               <div className="text-left">
                 <div className="text-xs text-muted-foreground line-through">de R$ 459,90</div>
                 <div className="font-display text-2xl sm:text-3xl text-gradient-gold leading-none">12x R$ 33,29</div>
@@ -85,6 +85,7 @@ function Landing() {
                 <div className="text-[10px] uppercase font-bold text-success">Campanha do Refrigerista</div>
               </div>
             </div>
+
 
             <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-muted-foreground">
               <span className="flex items-center gap-2"><Smartphone className="h-4 w-4 text-secondary" /> Acesso imediato</span>
