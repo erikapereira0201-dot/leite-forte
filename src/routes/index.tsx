@@ -239,7 +239,7 @@ function Landing() {
           </div>
           <div className="space-y-4">
             {[
-              { n: "01–02", t: "Boas-vindas e o Aparelho", d: "Acesso ao Grupo VIP no Telegram • Função do tanque • Como o resfriador funciona • Quantidades de ordenhas." },
+              { n: "01–02", t: "Boas-vindas e o Aparelho", d: "Função do tanque • Como o resfriador funciona • Quantidades de ordenhas." },
               { n: "03–04", t: "Componentes e Refrigeração", d: "Princípios da refrigeração • Controladores, filtro secador e visor • Válvula rotalock • Agitador e evaporador • Válvula de expansão." },
               { n: "05–06", t: "Ferramentas e Estoque", d: "Manifold, maçarico, bomba de vácuo • Multímetro e capacímetro • Termômetro • Peças essenciais para pronta entrega." },
               { n: "07", t: "Mão na Massa: Defeitos Elétricos", d: "Instalação e calibragem do controlador • Testes de compressor e capacitor • Diagnóstico de agitador • Pressostato, contatora e sonda." },
@@ -333,7 +333,6 @@ function Landing() {
               <div className="mt-8 grid sm:grid-cols-2 gap-3 text-left max-w-md mx-auto">
                 {[
                   "9 módulos completos",
-                  "Grupo VIP no Telegram",
                   "Bônus: segredos do dia a dia",
                   "Certificado de conclusão",
                   "Acesso por 2 anos",
