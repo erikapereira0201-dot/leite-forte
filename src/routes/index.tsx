@@ -118,37 +118,6 @@ function Landing() {
         </div>
       </section>
 
-      {/* OFERTA DO DIA DOS PAIS */}
-      <section className="py-14 bg-gradient-hero border-b border-border">
-        <div className="mx-auto max-w-4xl px-4">
-          <div className="bg-card border-[3px] border-primary rounded-3xl p-6 sm:p-10 shadow-gold animate-pulse-glow relative overflow-hidden text-center">
-            <div className="absolute -top-1 -right-1 bg-gradient-gold text-primary-foreground px-7 py-2.5 text-sm font-bold uppercase tracking-wider rounded-bl-2xl shadow-lg">
-              30% OFF
-            </div>
-            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-gold animate-shimmer opacity-60" style={{ backgroundSize: '200% 100%' }} />
-            <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary uppercase tracking-wider">
-              <Flame className="h-3.5 w-3.5" /> Oferta do Dia dos Pais
-            </div>
-            <h2 className="mt-4 font-display text-3xl sm:text-4xl uppercase">
-              Presenteie com a <span className="text-gradient-gold">profissão do futuro no agro</span>
-            </h2>
-            <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
-              Condição exclusiva de Dia dos Pais para quem quer virar técnico de tanque de leite. Aproveite o desconto especial e comece a cobrar pelos seus chamados ainda este mês.
-            </p>
-            <div className="mt-6 flex flex-col items-center gap-1">
-              <span className="text-muted-foreground line-through text-lg">de R$ 459,90</span>
-              <div className="font-display text-6xl sm:text-7xl text-gradient-gold leading-none">12x R$ 33,29</div>
-              <div className="text-muted-foreground text-lg">ou <strong className="text-foreground">R$ 321,93</strong> à vista</div>
-            </div>
-            <div className="mt-8">
-              <CTA large>GARANTIR MEU DESCONTO DE DIA DOS PAIS</CTA>
-            </div>
-            <p className="text-xs text-muted-foreground mt-4">
-              Oferta válida por tempo limitado. Pode sair do ar a qualquer momento.
-            </p>
-          </div>
-        </div>
-      </section>
 
 
       {/* SOCIAL PROOF BAR */}
