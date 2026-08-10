@@ -280,22 +280,15 @@ function Landing() {
       <section id="oferta" className="py-24 bg-gradient-hero grain relative">
         <div className="mx-auto max-w-3xl px-4">
           <div className="bg-card border-[3px] border-primary rounded-3xl p-8 sm:p-12 shadow-gold animate-pulse-glow relative overflow-hidden">
-            <div className="absolute -top-1 -right-1 bg-gradient-gold text-primary-foreground px-7 py-2.5 text-sm font-bold uppercase tracking-wider rounded-bl-2xl shadow-lg">
-              30% OFF
-            </div>
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-gold animate-shimmer opacity-60" style={{ backgroundSize: '200% 100%' }} />
             <div className="text-center">
-              <span className="text-primary uppercase text-xs font-bold tracking-widest">Oferta do Dia dos Pais</span>
+              <span className="text-primary uppercase text-xs font-bold tracking-widest">Inscrição Aberta</span>
               <h2 className="font-display text-4xl sm:text-5xl uppercase mt-3">Manutenção em Tanque de Leite</h2>
 
               <div className="mt-8 flex flex-col items-center gap-2">
-                <span className="text-muted-foreground line-through text-lg">de R$ 459,90</span>
                 <div className="font-display text-2xl">por apenas</div>
-                <div className="font-display text-7xl sm:text-8xl text-gradient-gold leading-none">12x R$ 33,29</div>
-                <div className="text-muted-foreground text-lg">ou <strong className="text-foreground">R$ 321,93</strong> à vista</div>
-                <div className="mt-2 inline-flex items-center gap-1.5 rounded-full bg-success/15 px-4 py-1.5 text-sm font-bold text-success">
-                  <CheckCircle2 className="h-4 w-4" /> Você economiza R$ 138,00
-                </div>
+                <div className="font-display text-7xl sm:text-8xl text-gradient-gold leading-none">12x R$ 47,56</div>
+                <div className="text-muted-foreground text-lg">ou <strong className="text-foreground">R$ 459,90</strong> à vista</div>
               </div>
 
               <div className="mt-8 grid sm:grid-cols-2 gap-3 text-left max-w-md mx-auto">
