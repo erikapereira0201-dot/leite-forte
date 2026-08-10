@@ -73,16 +73,15 @@ function Landing() {
               <CTA large>QUERO ME TORNAR ESPECIALISTA</CTA>
             </div>
 
-            <div className="mt-6 inline-flex items-center gap-4 rounded-2xl border-2 border-primary bg-card/90 backdrop-blur px-5 py-3 shadow-gold animate-pulse-glow">
+            <div className="mt-6 inline-flex items-center gap-4 rounded-2xl border-2 border-primary bg-card/90 backdrop-blur px-5 py-3 shadow-gold">
               <div className="text-left">
-                <div className="text-xs text-muted-foreground line-through">de R$ 459,90</div>
-                <div className="font-display text-2xl sm:text-3xl text-gradient-gold leading-none">12x R$ 33,29</div>
-                <div className="text-xs text-muted-foreground">ou <strong className="text-foreground">R$ 321,93</strong> à vista</div>
+                <div className="font-display text-2xl sm:text-3xl text-gradient-gold leading-none">12x R$ 47,56</div>
+                <div className="text-xs text-muted-foreground">ou <strong className="text-foreground">R$ 459,90</strong> à vista</div>
               </div>
               <div className="h-10 w-px bg-border" />
               <div className="text-center">
-                <div className="font-display text-xl text-primary leading-none">30% OFF</div>
-                <div className="text-[10px] uppercase font-bold text-success">Oferta do Dia dos Pais</div>
+                <div className="font-display text-xl text-primary leading-none">Oferta</div>
+                <div className="text-[10px] uppercase font-bold text-success">por tempo limitado</div>
               </div>
             </div>
 
