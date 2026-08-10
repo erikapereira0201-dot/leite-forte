@@ -306,7 +306,7 @@ function Landing() {
               </div>
 
               <div className="mt-10">
-                <CTA large>GARANTIR MEU PRESENTE DE DIA DOS PAIS</CTA>
+                <CTA large>QUERO COMEÇAR AGORA</CTA>
                 <p className="text-xs text-muted-foreground mt-4 flex items-center justify-center gap-2">
                   <Lock className="h-3 w-3" /> Pagamento 100% seguro via Hotmart
                 </p>
@@ -367,7 +367,7 @@ function Landing() {
             O agro não espera. Aprenda hoje a profissão que paga bem amanhã.
           </p>
           <div className="mt-8">
-            <CTA large>COMEÇAR AGORA POR 12X R$ 33,29</CTA>
+            <CTA large>COMEÇAR AGORA POR 12X R$ 47,56</CTA>
           </div>
         </div>
       </section>
